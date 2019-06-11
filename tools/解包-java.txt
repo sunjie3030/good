@@ -1,0 +1,7 @@
+G:
+
+cd G:\Decompile_apk\tools\jadx\bin
+
+jadx -d G:\Decompile_apk\myapk\myapk-java G:\Decompile_apk\myapk.apk
+
+pause

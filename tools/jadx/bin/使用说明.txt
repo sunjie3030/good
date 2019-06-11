@@ -1,0 +1,2 @@
+ 可以一行命令直接反编译恢复出.java文件
+命令: jadx -d out calc.apk

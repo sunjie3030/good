@@ -1,0 +1,10 @@
+解包
+
+apktool d  -f C:\Users\Administrator\Desktop\aaaa\a.apk -o C:\Users\Administrator\Desktop\aaaa\app
+
+打包
+
+apktool b -o new.apk -f C:\Users\Administrator\Desktop\aaaa\app
+
+查看源代码
+G:\Decompile_apk\tools\jadx\bin\jadx-gui.bat

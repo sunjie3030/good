@@ -1,0 +1,4 @@
+将tools/apktool/下的两个文件一起放在C:/Windows目录下
+
+
+重新配置所有xx.bat里的文件路径

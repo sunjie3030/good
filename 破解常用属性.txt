@@ -1,0 +1,40 @@
+	
+	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"	
+	android:installLocation="preferExternal" 
+	android:versionCode="1"
+    android:versionName="1.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" /> 
+		
+		
+<supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />	
+
+<application	
+	
+com.unity3d.player.UnityPlayerNativeActivity
+com.unity3d.player.UnityPlayerActivity
+private String r1 = "true";
+
+
+
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+			 
+			
+			</activity> 
+			
+    </application> 
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>			
+			
+			
